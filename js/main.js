@@ -41,7 +41,7 @@ var bici = [
 var bicileggera = bici[0];
 //faccio un ciclo sgli oggetti nell'array
 for(var i = 0; i < bici.length; i++){
-  //se il peso della bici ciclata è minore rispetto al peso di bicileggera allora la bicileggera sarà quella bici che comprata alle altre ha il peso minore
+  //se il peso della bici ciclata è minore rispetto al peso di bicileggera allora la bicileggera sarà quella bici
   if(bici[i].peso < bicileggera.peso){
     bicileggera = bici[i];
   }
@@ -55,7 +55,7 @@ var triangolo = {
   'base' : 15,
   'altezza' : 20
 }
-//isnerisco le altre proprietà tramite il calcolo
+//inserisco le altre proprietà tramite il calcolo
 triangolo.area = triangolo.base * triangolo.altezza / 2;
 triangolo.ipotenusa = (triangolo.base **2 + triangolo.altezza **2) ** 0.5;
 triangolo.perimetro = triangolo.base + triangolo.altezza + triangolo.ipotenusa;
@@ -68,7 +68,7 @@ saranno tutte settate a 0.
 4B
 Generare numeri random al posto degli 0 nelle proprietà:
 punti fatti e falli subiti*/
-//creo array di oggetti in cui definisco il valore solo della chiave 'nome'. Creo poi una funzione epr generare i numeri random e la inserisco come valore nele chiavi 'punti' e 'falli'.
+//creo array di oggetti in cui definisco il valore solo della chiave 'nome'. Creo poi una funzione per generare i numeri random e la inserisco come valore nele chiavi 'punti' e 'falli'.
 var squadre = [
   {
     'nome' : 'Inter',
