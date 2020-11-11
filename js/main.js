@@ -58,6 +58,7 @@ var triangolo = {
 //inserisco le altre proprietà tramite il calcolo
 triangolo.area = triangolo.base * triangolo.altezza / 2;
 triangolo.ipotenusa = (triangolo.base **2 + triangolo.altezza **2) ** 0.5;
+debugger;
 triangolo.perimetro = triangolo.base + triangolo.altezza + triangolo.ipotenusa;
 console.log(triangolo)
 /*ES.4A. Creare un array di oggetti di squadre di calcio.
